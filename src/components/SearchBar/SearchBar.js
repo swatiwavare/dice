@@ -29,10 +29,7 @@ const SearchBar = () => {
         let sortType = event.target.value
         setSort(sortType);
         let newRepos = JSON.parse(JSON.stringify(repos));
-        newRepos.sort((a, b) => {
-            debugger
-            return a[sortType] > b[sortType] ? 1 : -1;
-        })
+        newRepos.sort((a, b) => a[sortType] > b[sortType] ? 1 : -1)
         setRepos(newRepos);
     }
 
