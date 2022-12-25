@@ -11,7 +11,7 @@ const detailsInCard = (props) => {
                 score={item.score}
                 watchers_count={item.watchers_count} />
         )
-    }) : null
+    }) : <div>No repos are found for given search</div>
 
     return (
         <div className={classes.cards_container}>
