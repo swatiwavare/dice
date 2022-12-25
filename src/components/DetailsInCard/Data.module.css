@@ -1,0 +1,26 @@
+.card_container{
+    margin: 20px 50px;
+}
+
+.card_content{
+    padding: 10px;
+}
+
+.card_name_content{
+    padding: 10px;
+    background-color: #1976d2;
+    color: #ffffff;
+}
+
+.card_watchers_count_content{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bdd7f0;
+}
+
+.card_icon_content{
+    display: flex;
+    align-items: center;
+}

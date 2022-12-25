@@ -1,0 +1,8 @@
+.search_container{
+    display: flex;
+    align-items: center;
+}
+
+.text_field{
+    margin-right: 20px;
+}
